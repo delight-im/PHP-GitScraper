@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-namespace Delight\Git;
+namespace Delight\GitScraper;
 
 /** Downloads entire Git repositories from publicly accessible `.git` folders over HTTP */
 class GitScraper {
