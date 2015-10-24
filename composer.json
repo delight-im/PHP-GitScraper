@@ -1,0 +1,16 @@
+{
+	"name": "delight-im/git-scraper",
+	"description": "Downloads entire Git repositories from publicly accessible \".git\" folders over HTTP",
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"type": "library",
+	"keywords": [ "git", "vcs", "scm", "scraper", "security" ],
+	"homepage": "https://github.com/delight-im/PHP-GitScraper",
+	"license": "Apache-2.0",
+	"autoload": {
+		"psr-4": {
+			"Delight\\GitScraper\\": "src/"
+		}
+	}
+}

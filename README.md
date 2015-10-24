@@ -5,11 +5,29 @@ Downloads entire Git repositories from publicly accessible `.git` folders over H
  * Directory indexes or directory browsing on the web server are *not* required
  * Running `git update-server-info` on the server is *not* required
 
+## Requirements
+
+ * PHP 5.5.0+
+
+## Installation
+
+ * Set up the PHP library
+   * Install via [Composer](https://getcomposer.org/) (recommended)
+
+     `$ composer require delight-im/git-scraper`
+
+     Include the Composer autoloader:
+
+     `require __DIR__.'/vendor/autoload.php';`
+
+   * or
+   * Install manually
+     * Copy the contents of the [`src`](src) directory to a subfolder of your project
+     * Include the files in your code via `require` or `require_once`
+
 ## Usage
 
 ```
-require __DIR__.'/src/GitScraper.php';
-
 $scraper = new Delight\GitScraper\GitScraper('http://www.example.com/.git/');
 $scraper->fetch();
 // var_dump($scraper->getFiles());
