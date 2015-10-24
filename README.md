@@ -11,19 +11,18 @@ Downloads entire Git repositories from publicly accessible `.git` folders over H
 
 ## Installation
 
- * Set up the PHP library
-   * Install via [Composer](https://getcomposer.org/) (recommended)
+ * Install via [Composer](https://getcomposer.org/) (recommended)
 
-     `$ composer require delight-im/git-scraper`
+   `$ composer require delight-im/git-scraper`
 
-     Include the Composer autoloader:
+   Include the Composer autoloader:
 
-     `require __DIR__.'/vendor/autoload.php';`
+   `require __DIR__.'/vendor/autoload.php';`
 
-   * or
-   * Install manually
-     * Copy the contents of the [`src`](src) directory to a subfolder of your project
-     * Include the files in your code via `require` or `require_once`
+ * or
+ * Install manually
+   * Copy the contents of the [`src`](src) directory to a subfolder of your project
+   * Include the files in your code via `require` or `require_once`
 
 ## Usage
 
