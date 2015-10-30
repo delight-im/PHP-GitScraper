@@ -27,7 +27,7 @@ Downloads entire Git repositories from publicly accessible `.git` folders over H
 ## Usage
 
 ```
-$scraper = new Delight\GitScraper\GitScraper('http://www.example.com/.git/');
+$scraper = new \Delight\GitScraper\GitScraper('http://www.example.com/.git/');
 $scraper->fetch();
 // var_dump($scraper->getFiles());
 $scraper->download('./');
