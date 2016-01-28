@@ -80,7 +80,7 @@ You should probably use this library with your own websites and repositories onl
 ## License
 
 ```
-Copyright 2015 delight.im <info@delight.im>
+Copyright (c) delight.im <info@delight.im>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
